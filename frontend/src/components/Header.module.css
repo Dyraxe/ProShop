@@ -1,0 +1,13 @@
+.navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navItem:not(:last-child) {
+    margin-right: 0.62rem;
+}
+
+.navText {
+    margin-left: .5rem;
+}
